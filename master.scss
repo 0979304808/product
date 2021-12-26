@@ -1,0 +1,59 @@
+.container-fluid {
+  padding: 0 40px;
+
+}
+.container {
+  min-height: 100vh;
+
+}
+.footer {
+  height: 80px;
+  h5 {
+    line-height: 80px;
+  }
+}
+.navbar-nav {
+  .nav-item {
+    a {
+      &:hover {
+        color: red;
+        font-weight: bold;
+      }
+    }
+    .active {
+      color: red !important;
+    }
+  }
+}
+.navbar-brand {
+  font-weight: bold;
+}
+.list {
+  .box-item {
+    border: 1px solid #f5f5f5;
+    box-shadow: 1px 1px 5px 1px #dfdfdf;
+    a {
+      text-decoration: none;
+      color: black;
+      transition:all .3s linear ;
+      &:hover {
+        color: red;
+      }
+    }
+    .view-detail {
+      color: red;
+      &:hover {
+        color: #4CAF50;
+      }
+    }
+  }
+}
+
+.login {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 30px;
+  margin-top: 60px;
+  box-shadow: 2px 2px 5px 1px #adadad;
+  padding-bottom: 80px;
+}
